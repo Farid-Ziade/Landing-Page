@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container-1 {
+  max-width: 80%;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+header {
+  padding: 20px;
+  color: white;
+  background-color: #1f2937;
+  align-items: center;
+}
+a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+  margin-right: 5px;
+}
+.hero {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+.hero-desc {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 20px;
+}
+.hero-sec {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  width: 600px;
+  height: 250px;
+  margin: 0 auto;
+  background-color: grey;
+}
+.header-Logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  height: 30px;
+  width: 90px;
+  background-color: #3882f6;
+  padding: 6px;
+  border-radius: 4px;
+  color: #f9faf8;
+}
+
+.main-sec {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 60px;
+}
+.main-header {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.main-box {
+  height: 100px;
+  width: 120px;
+  border-color: #3882f6;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 20px;
+}
+.div-p-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.div-p-container p {
+  text-align: center;
+  color: #6b7280;
+  font-size: 14px;
+  max-width: 140px;
+}
+.quote {
+  background-color: #e5e7eb;
+  padding: 80px;
+  margin-bottom: 80px;
+}
+.quote-container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.quote-container p {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+}
+.quote-container p:last-child {
+  float: inline-end;
+  font-size: 20px;
+  font-weight: bold;
+}
+.call-to-action {
+  max-width: 60%;
+  background-color: #3882f6;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 60px;
+}
+.p-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer {
+  padding: 20px;
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
